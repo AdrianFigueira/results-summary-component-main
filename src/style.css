@@ -6,6 +6,7 @@ body {
     height: 100vh;
     background-color: hsl(221, 100%, 96%);
 }
+
 .main {
     background-color: hsl(221, 100%, 96%);
     align-items: center;
@@ -15,6 +16,7 @@ body {
     margin: 0 auto;
 
 }
+
 .main .background {
     max-width: 600px;
     margin: 0 auto;
@@ -23,11 +25,11 @@ body {
     justify-content: space-between;
     background-color: hsl(0, 0%, 100%);
     border-radius: 25px;
-    box-shadow: 50px 40px 100px 10px  hsla(241, 72%, 46%, 0.1);
+    box-shadow: 50px 40px 100px 10px hsla(241, 72%, 46%, 0.1);
 }
 
 .main .background .result {
-    background-image: linear-gradient( to top, hsl(241, 81%, 40%), hsl(252, 100%, 57%));
+    background-image: linear-gradient(to top, hsl(241, 81%, 40%), hsl(252, 100%, 57%));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -37,35 +39,41 @@ body {
     color: hsl(0, 0%, 100%);
     border-radius: 25px;
 }
+
 .main .background .result h3 {
     margin-bottom: 30px;
     font-size: 20px;
     font-weight: 400;
-    color:hsl(221, 100%, 96%);
+    color: hsl(221, 100%, 96%);
 }
+
 .main .background .result .radius {
     display: flex;
     flex-direction: column;
     align-items: center;
-    margin-bottom:30px;
-    background-image: linear-gradient( to top,hsla(241, 72%, 49%, 1), hsla(256, 72%, 29%, 1));
+    margin-bottom: 30px;
+    background-image: linear-gradient(to top, hsla(241, 72%, 49%, 1), hsla(256, 72%, 29%, 1));
     width: 150px;
     padding: 35px;
     border-radius: 150px;
 }
+
 .main .background .result .radius span {
     font-size: 50px;
     font-weight: 800;
 }
+
 .main .background .result .radius p {
     font-size: 13px;
     font-weight: 500;
-    color:  hsl(241, 100%, 89%, 0.8);
+    color: hsl(241, 100%, 89%, 0.8);
 }
+
 .main .background .result h2 {
     font-weight: 600;
     margin-bottom: 10px;
 }
+
 .main .background .result p {
     text-align: center;
     font-size: 17px;
@@ -83,6 +91,7 @@ body {
     padding-left: 30px;
     padding-top: 13px;
 }
+
 .main .background .summary li {
     display: flex;
     align-items: center;
