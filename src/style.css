@@ -4,11 +4,10 @@ body {
     align-items: center;
     justify-content: center;
     height: 100vh;
-    background-color: hsl(221, 100%, 96%);
+    background-color: hsl(0, 0%, 100%);
 }
 
 .main {
-    background-color: hsl(221, 100%, 96%);
     align-items: center;
     justify-content: center;
     width: 100%;
@@ -19,24 +18,25 @@ body {
 
 .main .background {
     max-width: 600px;
+    height: auto;
     margin: 0 auto;
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: hsl(0, 0%, 100%);
     border-radius: 25px;
-    box-shadow: 50px 40px 100px 10px hsla(241, 72%, 46%, 0.1);
+    box-shadow: 20px 20px 100px 8px hsla(234, 34%, 18%, 0.3);
 }
 
 .main .background .result {
-    background-image: linear-gradient(to top, hsl(241, 81%, 40%), hsl(252, 100%, 57%));
+    background-image: linear-gradient(to top, hsl(232, 99%, 26%), hsl(245, 83%, 67%));
     display: flex;
     flex-direction: column;
     align-items: center;
     padding: 2rem;
     width: 400px;
     height: 430px;
-    color: hsl(0, 0%, 100%);
+    color: hsl(221, 100%, 96%);
     border-radius: 25px;
 }
 
@@ -52,7 +52,7 @@ body {
     flex-direction: column;
     align-items: center;
     margin-bottom: 30px;
-    background-image: linear-gradient(to top, hsla(241, 72%, 49%, 1), hsla(256, 72%, 29%, 1));
+    background-image: linear-gradient(to top,hsl(232, 68%, 46%), rgb(60, 28, 148));
     width: 150px;
     padding: 35px;
     border-radius: 150px;
@@ -70,14 +70,13 @@ body {
 }
 
 .main .background .result h2 {
-    font-weight: 600;
+    font-weight: 700;
     margin-bottom: 10px;
 }
 
 .main .background .result p {
     text-align: center;
     font-size: 17px;
-    font-weight: 300;
 }
 
 
@@ -89,11 +88,77 @@ body {
     width: 400px;
     height: 380px;
     padding-left: 30px;
-    padding-top: 13px;
+    padding-top: 10px;
+}
+.main .background .summary h1 {
+    font-size: 22px;
+    font-weight: 700;
+    margin-bottom: 18px;
+    color: hsl(223, 27%, 13%)
+}
+.main .background .summary .list {
+    margin-bottom: 18px;
+    height: 250px;
+    width: 250px;
 }
 
-.main .background .summary li {
+.main .background .summary .list ul li {
     display: flex;
     align-items: center;
+    margin: 10px 10px 15px 0px;
+    padding: 10px;
+    border-radius: 7px;
+    width: 240px;
+    height: 45px;
     justify-content: space-between;
+    font-size: 15px;
+}
+.main .background .summary .list ul li.reaction {
+    font-weight: 800;
+    color: hsl(0, 100%, 67%);
+    background-color:  hsla(20, 100%, 73%, 0.2);
+}
+.main .background .summary .list ul li.memory {
+    color:  hsl(39, 100%, 56%);
+    background-color: hsla(56, 91%, 61%, 0.2);
+}
+.main .background .summary .list ul li.verbal {
+    color:  hsl(166, 100%, 37%);
+    background-color:  hsla(166, 100%, 37%, 0.1);
+}
+.main .background .summary .list ul li.visual {
+    color: hsl(234, 85%, 45%);
+    background-color: hsla(234, 85%, 45%, 0.1);
+}
+.main .background .summary .list ul li h2 {
+    font-size: 15px;
+    font-weight: 500;
+}
+.main .background .summary .list ul li .organizacao {
+    display: flex;
+}
+.main .background .summary .list ul li .organizacao img {
+    margin-right: 8px;
+}
+.main .background .summary .list ul li span {
+    font-weight: 800;
+    color: hsl(223, 27%, 13%)
+}
+.main .background .summary .list ul li p {
+    font-weight: 800;
+    color: hsla(224, 28%, 13%, 0.525)
+}
+.main .background .summary .continue-btn {
+    width: 225px;
+    height: 45px;
+    border-radius: 30px;
+    margin-left: 8px;
+    font-size: 15px;
+    font-weight: 200;
+    background-color: hsl(222, 33%, 16%);
+    color: hsl(0, 0%, 100%);
+}
+.main .background .summary .continue-btn:hover {
+    background-image: linear-gradient(to top,hsl(232, 68%, 46%), rgb(60, 28, 148));
+    cursor: pointer;
 }
